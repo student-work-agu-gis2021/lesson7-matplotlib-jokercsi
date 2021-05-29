@@ -19,7 +19,12 @@ import numpy as np
 import pandas as pd
 
 # YOUR CODE HERE 1 to set data
+random_numbers_X = np.random.rand(1000)
+random_numbers_Y = np.random.rand(1000)
 
+data = pd.DataFrame({'x':[], 'y':[]})
+data["x"] = random_numbers_X
+data["y"] = random_numbers_Y
 # Check your random values
 print(data.head())
 
