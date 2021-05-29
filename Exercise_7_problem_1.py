@@ -60,6 +60,14 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 # Plot a scatter plot
 # YOUR CODE HERE 3
 
+
+# DataFrame.plot()
+# s = size of pointer
+# c = color
+# colormap = color scheme 
+# edgecolor = making edge in element
+data.plot(kind='scatter', x="x", y="y", s=50, c = colors, colormap='rainbow', edgecolor='black') 
+
 # Add labels and title
 # YOUR CODE HERE 4
 
