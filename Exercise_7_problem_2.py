@@ -66,7 +66,7 @@ selection_temps.plot(linestyle='-', color="black", marker='o', markersize = 3,fi
 plt.xlabel("Time")
 plt.ylabel("Temperature (Celsius)")
 plt.title('Helsinki-Vantaa Airport')
-
+plt.grid()
 # Set output file name
 outputfp = ""
 
