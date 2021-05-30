@@ -37,8 +37,8 @@ print(len(data))
 # - Store the selection in a new variable `selection`
 
 # YOUR CODE HERE 2
-selection = pd.DataFrame({'DATE':[]})
-selection = data.loc[(data.index >= '1998-01-01') & (data.index < '2018-12-31')]
+#selection = pd.DataFrame({'DATE':[]})
+selection = data.loc['1998-01-01':'2018-12-31']
 
 # Check that the data was read in correctly:
 selection.head()
