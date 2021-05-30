@@ -59,6 +59,13 @@ print("Number of rows:", len(selection))
 # 
 
 # YOUR CODE HERE 3
+import matplotlib.pyplot as plt
+
+selection_temps = selection['TEMP_C']
+selection_temps.plot(linestyle='-', color="black", marker='o', markersize = 3,figsize=(14,6))
+plt.xlabel("Time")
+plt.ylabel("Temperature (Celsius)")
+plt.title('Helsinki-Vantaa Airport')
 
 # Set output file name
 outputfp = ""
